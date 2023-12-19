@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+hmtl {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --color-blue: #2430a0;
 
@@ -16,6 +23,7 @@
   font-size: 16px;
   padding: 0.3rem 1.8rem;
   transition: var(--transition);
+  width: fit-content;
 }
 
 .btn {
@@ -26,6 +34,7 @@
   font-size: 16px;
   padding: 0.3rem 1.8rem;
   transition: var(--transition);
+  width: fit-content;
 }
 
 .btn:hover {

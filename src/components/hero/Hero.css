@@ -1,0 +1,144 @@
+.hero-container {
+  width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.6rem 1.2rem;
+  position: relative;
+}
+
+.hero-left {
+  padding: 2rem;
+  margin-top: 4rem;
+}
+.hero-3h {
+  display: flex;
+  gap: 1rem;
+  color: var(--color-blue);
+  font-feature-settings: "liga" off;
+  font-family: PP Pangram Sans Rounded;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 2.34375rem */
+}
+
+/* .heart-icon {
+  color: red;
+  position: absolute;
+  bottom: 0;
+} */
+
+.hero-content {
+  color: var(--color-blue);
+  font-family: Nunito Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 120% */
+}
+
+.input-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26rem;
+  height: 2.5rem;
+  position: relative;
+}
+
+.input-btn > input {
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #51557d;
+  width: 18rem;
+  position: absolute;
+}
+
+.input-btn > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-left: -1.7rem;
+  z-index: 9;
+  position: absolute;
+  right: 0;
+}
+
+.arrow-icon {
+  margin-top: 0.35rem;
+}
+
+.hero-vector-img {
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+}
+
+.chat {
+  position: relative;
+  /* Add necessary width and height to ensure the icon remains visible */
+  width: 2.5rem;
+  height: 2.5rem;
+  /* Other styles */
+  background: var(--color-blue);
+  border-radius: 50%;
+  color: #fff;
+  position: fixed;
+  right: 4rem;
+  bottom: 7rem;
+}
+
+.chat:hover {
+  cursor: pointer;
+  color: var(--color-blue);
+  background-color: #fff;
+  border: 1px solid var(--color-blue);
+}
+
+.chat-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Adjust the icon size and padding */
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.5rem;
+  /* Other styles */
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+}
+
+/* ================== For medium-sized screens ============== */
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+}
+
+/* ================== For small-sized screens ============== */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-3h {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

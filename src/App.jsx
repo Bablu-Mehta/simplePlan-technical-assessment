@@ -1,9 +1,11 @@
-import Header from "./components/Header.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/hero/Hero.jsx";
 
 function App() {
   return (
     <>
-      <Header />
+      <Navbar />
+      {/* <Hero /> */}
     </>
   );
 }
