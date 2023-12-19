@@ -1,3 +1,42 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-blue: #2430a0;
+
+  --transition: all 0.5s ease;
+}
+
+.btn-primary {
+  background: var(--color-blue);
+  color: #fff;
+  border: 1px solid var(--color-blue);
+  border-radius: 24px;
+  font-size: 16px;
+  padding: 0.3rem 1.8rem;
+  transition: var(--transition);
+}
+
+.btn {
+  background: #fff;
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  border-radius: 24px;
+  font-size: 16px;
+  padding: 0.3rem 1.8rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: var(--color-blue);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background: #fff;
+  color: var(--color-blue);
+  border: 0.5px solid var(--color-blue);
+}
