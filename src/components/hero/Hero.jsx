@@ -28,7 +28,6 @@ export default function Hero() {
       </div>
       <div className="hero-right">
         <img
-          style={{ width: 754, height: 525.08, borderRadius: 8.66 }}
           src="https://via.placeholder.com/754x525"
         />
       </div>
