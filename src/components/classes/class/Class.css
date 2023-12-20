@@ -1,0 +1,139 @@
+.class-card {
+  width: 260px;
+  box-sizing: border-box;
+  background: #e9efff;
+}
+
+.class-detail {
+  padding: 1rem;
+}
+.class-img {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+  background: cover no-repeat, #fff;
+}
+
+.offer {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  left: 0.6rem;
+  padding: 0.2rem 0.4rem;
+  color: var(--color-blue);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.save {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.4rem;
+}
+
+.class-title {
+  color: #2430a0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.class-description {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 20.8px */
+}
+
+.author {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.author-name {
+  color: #7b7b7b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.rating {
+  color: #ffb051;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+
+.class-content {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.class-price-container {
+  background-color: var(--color-blue);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.8rem;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.price-card {
+  display: flex;
+  align-items: center;
+  gap: 0.18rem;
+  position: relative;
+}
+
+.price {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 1px;
+}
+
+.price-card > small {
+  color: #bec4ff;
+  font-feature-settings: "liga" off;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 1px;
+}
+
+.price-card > span {
+  position: absolute;
+  background: #bec4ff;
+  width: 1.5px;
+  height: 3.6rem;
+  transform: rotate(100deg);
+  top: -4px;
+  left: 5rem;
+}
+
+.enroll {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
