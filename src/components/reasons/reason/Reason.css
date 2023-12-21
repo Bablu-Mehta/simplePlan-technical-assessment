@@ -1,0 +1,17 @@
+.reason-container {
+  width: 300px;
+}
+
+.reason-content {
+  width: 100%;
+  color: #1b1f49;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+
+@media (max-width: 768px) {
+  .reason-container {
+    width: 250px;
+  }
+}
