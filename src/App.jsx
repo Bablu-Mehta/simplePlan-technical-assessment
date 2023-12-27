@@ -10,13 +10,13 @@ import Certification from "./components/certification/Certification.jsx";
 function App() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Services />
       <Classes />
       <Categories />
       <Reasons />
-      <Testimonials /> */}
+      <Testimonials />
       <Certification />
     </>
   );
