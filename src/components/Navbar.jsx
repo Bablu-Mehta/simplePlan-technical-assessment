@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./navbar.css";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
